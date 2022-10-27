@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #e5cec6;
+}
+
+#apri {
+    border: none;
+    color: white;
+    background-color: #287f8e;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#apri:hover {
+    background-color: #e06547;
+}
+
+.menu {
+    visibility: hidden;
+    background-color: #dba395;
+    width: fit-content;
+    box-shadow: 2px 2px 7px rgb(118, 118, 118);
+}
+
+.menuApri {
+    visibility: visible;
+}
+
+.menu a {
+    display: block;
+    color: #287f8e;
+    text-decoration: none;
+    padding: 10px 50px 10px 10px;
+}
+
+.cambioColore { /* Hover sulle voci del menu */
+    background-color: #eab2bb;
+}
+
+h1 {
+    font-size: 3em;
+    color: #287f8e;
+    margin: 20px 0;
+    text-align: center;
+    margin: -20px 0 50px;
+}
+
+.btnModifica {
+    font-size: 1.2em;
+    border: none;
+    color: white;
+    background-color: #e06547;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    box-shadow: 2px 2px 7px #0e2f34;
+    cursor: pointer;
+    margin-bottom: 70px;
+}
+
+.btnModifica:hover {
+    transform: scale(1.1);
+}
+
+.btnModifica:active {
+    transform: scale(1);
+}
+
+h2 {
+    color: #287f8e;
+}
+
+.rosso {
+    color: #e06547;
+}
+
+.barrato {
+    text-decoration: line-through;
+    color: #81535a;
+}
